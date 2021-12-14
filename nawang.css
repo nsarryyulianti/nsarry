@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+ul, li, a{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #f7f7f7;
+}
+
+header{
+  font-weight: 400;
+  padding: 25px 10%;
+  background-color: white;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.75);
+  top: 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo{
+  color: black;
+  font-weight: 900;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.tombol a{
+  color: black;
+  font-size: 13px;
+  background-color: rgba(199, 199, 199, 0.557);
+  padding: 10px 15px;
+  border-radius: 100%;
+  margin: 0 2px;
+}
+
+.links{
+  padding: 0 30px;
+}
+
+.links a{
+  color: black;
+}
+
+.links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.links li a:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+.main{
+  color: black;
+  margin: 12rem 10% 0 10%;
+}
+
+.home{
+  padding: 50px 0;
+}
+
+.home h4{
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.judul{
+  color: black;
+  line-height: 90px;
+  font-weight: 900;
+  font-size: 75px;
+}
+
+.deskripsi{
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.tombol-pesan{
+  background-color: rgb(255, 61, 93);
+  padding: 10px 20px;
+  color: white;
+}
+
+.home img{
+  position: absolute;
+  object-fit: cover;
+  margin-top: -21rem;
+  margin-left: 29rem;
+  height: 38rem;
+  z-index: 0;
+}
+
+/* JANGAN DIUBAH */
+.home,.collection,.contact-us{
+  scroll-margin-top: 15rem;
+}
+/* ------------ */
+
+/* UBAH DISINI BUAT MENU COLELCTION */
+.collection{
+  scroll-margin-top: 5rem;
+  margin: 15rem 0;
+  background-color: aqua;
+}
+
+/* UBAH DISINI BUAT MENU CONTACT */
+.contact-us{
+  margin: 20rem 0;
+  background-color: blue;
+}
+
+@media screen and (max width:960px;) {
+
+}
